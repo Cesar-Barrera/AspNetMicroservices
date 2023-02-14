@@ -6,3 +6,18 @@ docker ps
 docker logs -f shopping-mongo
 
 docker exec -it shopping-mongo /bin/bash
+
+
+
+Discount.API:
+
+Install-Package Npgsql
+Install-Package Dapper
+Update-Package -ProjectName Discount.API
+
+
+Update-Package -ProjectName Discount.Grpc
+
+
+
+
