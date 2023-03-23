@@ -18,6 +18,39 @@ Update-Package -ProjectName Discount.API
 
 Update-Package -ProjectName Discount.Grpc
 
+Basket.API
+
+Install-Package MassTransit
+Install-Package MassTransit.RabbitMQ
+Install-Package MassTransit.AspNetCore
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+Ordering.API
+
+Install-Package MassTransit
+Install-Package MassTransit.RabbitMQ
+Install-Package MassTransit.AspNetCore
+Install-Package AutoMapper
+Install-Package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+Ordering.Application
+Install-Package FluentValidation -Version 9.5.1
+Install-Package FluentValidation.DependencyInjectionExtensions -Version 9.0.0
+Install-Package MediatR.Extensions.Microsoft.DependencyInjection -Version 9.0.0
+
+
+OcelotApiGw
+
+Install-Package Ocelot
+Install-Package Ocelot.Cache.CacheManager 
+
+
+Install-Package Microsoft.Extensions.Http.Polly -Version 7.0.4
+
+
+
+
+
 
 
 
